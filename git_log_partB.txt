@@ -1,0 +1,88 @@
+commit d41b30f6a4a29a7cb44f930bdf863942712182f7
+Author: siva ganesh <edesivaganesh@gmail.com>
+Date:   Tue Apr 18 02:22:27 2023 -0700
+
+    Deleting file2.txt
+
+diff --git a/file1.txt b/file1.txt
+index b0de8b5..6f1d67c 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,2 +1,3 @@
+ siva ganesh computer science
+-dominos baahubali
+\ No newline at end of file
++dominos baahubali
++yellow
+\ No newline at end of file
+diff --git a/file2.txt b/file2.txt
+deleted file mode 100644
+index 6d7bf23..0000000
+--- a/file2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-Expected Graduation Year : 2023 Job : software developer
+\ No newline at end of file
+
+commit 4cdb4da936f0fd70a20c28408cc05701e73c6df6
+Author: siva ganesh <edesivaganesh@gmail.com>
+Date:   Tue Apr 18 02:20:10 2023 -0700
+
+    file2.txt has been staged and it is included with expected year and job title
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..6d7bf23
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++Expected Graduation Year : 2023 Job : software developer
+\ No newline at end of file
+
+commit 288dc35eae883b5cbc370324a66b60f77005ba72
+Author: siva ganesh <edesivaganesh@gmail.com>
+Date:   Tue Apr 18 02:14:51 2023 -0700
+
+    Added favorite rerstaurant and movie
+
+diff --git a/file1.txt b/file1.txt
+index 1ab04c8..b0de8b5 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1,2 @@
+-siva ganesh computer science
+\ No newline at end of file
++siva ganesh computer science
++dominos baahubali
+\ No newline at end of file
+
+commit 27839c98ceb442b76eff9bfb2c4414e56a436f54
+Author: siva ganesh <edesivaganesh@gmail.com>
+Date:   Tue Apr 18 02:13:09 2023 -0700
+
+    Now has my major
+
+diff --git a/file1.txt b/file1.txt
+index 6a30cc2..1ab04c8 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1 @@
+-siva ganesh 22208
+\ No newline at end of file
++siva ganesh computer science
+\ No newline at end of file
+
+commit 427275db0a883280c0a65736aa9f0ccd44025ebd
+Author: siva ganesh <edesivaganesh@gmail.com>
+Date:   Tue Apr 18 02:05:25 2023 -0700
+
+    Commiting a new file with my name
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..6a30cc2
+--- /dev/null
++++ b/file1.txt
+@@ -0,0 +1 @@
++siva ganesh 22208
+\ No newline at end of file
